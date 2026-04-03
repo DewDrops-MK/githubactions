@@ -1,8 +1,10 @@
-name: Hello World
+name: multiplesteps
 on: workflow_dispatch
 jobs:
   hello:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - name: hello world
-        run: echo "Hello World..! This is my first GitHubActions Task"
+      - name: multisteps
+        run: |
+          echo "first multi command job"
+          echo "sencond multi command job"
