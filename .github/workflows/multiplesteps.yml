@@ -2,7 +2,7 @@ name: multiplestepsjob
 on: workflow_dispatch
 jobs:
   build:
-    task: multistepjob
+    name: multistepjob
     runs-on: ubuntu-latest
     steps:
       - name: frist step
