@@ -12,5 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: secondjobs
-        run: sudo cat /ect/os-rele*
+        run: sudo uname -a
     
