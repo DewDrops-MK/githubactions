@@ -1,0 +1,12 @@
+name: multiplestepsjob
+on: workflow_dispatch
+jobs:
+  name: multistepjob
+  runs-on: ubuntu-latest
+  steps:
+    - name: frist step
+      run: echo "first steps job ran"
+    - name: seconf step
+      run: echo "Second step job ran"
+    - name: final step
+      run: echo "final steps job ran"
